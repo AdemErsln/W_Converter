@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.IO;
 using System.Data;
 using ImageMagick;
@@ -7,10 +6,8 @@ using System.Diagnostics;
 using Console = Colorful.Console;
 using System.Drawing;
 using System.Net;
-using TarExample;
 using Xabe.FFmpeg;
 using System.Threading.Tasks;
-
 using System.IO.Compression;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
@@ -50,8 +47,7 @@ Console.WriteLine(@"                      /___/_/    /____/   ");
             Console.Write("                                ");
  Typewrite("By Warss78",Color.Red);
 Console.WriteLine(string.Empty);
-            logger.Error("This is an error message");
-            Console.Read();
+
             Console.WriteLine(log_info + " Klasörler Aranıyor", Color.Turquoise);
             if (!Directory.Exists(applocation + "heic") && !Directory.Exists(applocation + "jpg"))
             {
